@@ -8,6 +8,7 @@ body {
 header {
     color: white;
     text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.566);
 }
 
 section {
@@ -16,11 +17,24 @@ section {
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.407);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.423);
+}
+
+div#res {
+    margin-bottom: 18px;
 }
 
 footer {
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
 }
